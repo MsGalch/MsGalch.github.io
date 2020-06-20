@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" href="../../css/main.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+      
+      <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="../../index.html">Назад</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+    <div class="Header" id="Header">
+      <div class="container">
+        <div id="SettingsWindow">
+          <form id="Settings">
+            <div>Размер: <input id="Size" type="number" value="3" size="5" min="3" max="6"/></div>
+          </form>
+          <br>
+          <div id="Button">
+            <button onclick="startGame()">Старт</button>
+          </div>
+        <br>
+      
+        <div id="Score">
+          Счёт: <input id="ScoreX" type="text" value="0" readonly/> : <input id="ScoreY" type="text" value="0" readonly/>
+        </div>
+      </div>
+    <div id="Game"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='../../js/main.js'></script>
+  </body>
+</html>

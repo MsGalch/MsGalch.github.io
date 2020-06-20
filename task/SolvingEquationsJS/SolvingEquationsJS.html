@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="../../index.html">Назад</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+
+    <div class="SolvingEquations" id="SolvingEquations">
+      
+      <div class="container">
+        <h1 class="text-center">Решение квадратных уравнений</h1>
+        <form class="elem" name="square" action="javascript:square_equation()" style="padding: 20px;">
+          <input name="square_a" type="text" value="1" size="4"> x&sup2;
+          + <input name="square_b" type="text" value="1" size="4"> x
+          + <input name="square_c" type="text" value="1" size="4">
+          <input type="submit" value="Ввод">
+        </form>
+        
+        <span class="elem" id="square_sol"></span>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='../../js/main.js'></script>
+  </body>
+</html>

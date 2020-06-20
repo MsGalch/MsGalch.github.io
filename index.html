@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Galche.ru</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top ">
+	  	<a class="navbar-brand" href="#" onclick="alert('Кажется что-то пошло не так(')">Регистрация</a> 
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+
+	  	<div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    	<ul class="navbar-nav mr-4">
+				<li class="nav-item">
+					<a class="nav-link" data-value="SolvingEquations" href="#">Решение уравнений</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="SolvingEquationsJS" href="#">Решение уравнений JS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="ModuleST" href="#">Модуль ST</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="TicTacToe" href="#">Крестики-нолики</a>
+				</li>
+	    	</ul>
+		</div>
+	</nav>
+
+
+	<div class="Header" id="Header" style="background-image: url('images/bg-01.jpg');">
+		<div class="container">
+			<div class="LogIn">
+				<div class="limiter">
+					<div class="container-login100">
+						<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+							<form class="login100-form validate-form flex-sb flex-w">
+								<span class="login100-form-title p-b-53">
+									Авторизация
+								</span>
+			
+								<a href="https://www.facebook.com/" class="btn-face m-b-20">
+									<img src="images/facebook.png" alt="Facebook" style="width: 30px; margin-right: 10px;">
+									Facebook
+								</a>
+			
+								<a href="https://www.google.com/" class="btn-google m-b-20">
+									<img src="images/google.png" alt="GOOGLE">
+									Google
+								</a>
+								
+								<div class="p-t-31 p-b-9">
+									<span class="txt1">
+										Логин
+									</span>
+								</div>
+								<div class="wrap-input100 validate-input" data-validate = "Username is required">
+									<input class="input100" type="text" name="username" >
+									<span class="focus-input100"></span>
+								</div>
+								
+								<div class="p-t-13 p-b-9">
+									<span class="txt1">
+										Пароль
+									</span>
+			
+									<a href="#" class="txt2 bo1 m-l-5" onclick="alert('Кажется что-то пошло не так(')">
+										Забыли пароль?
+									</a>
+								</div>
+								<div class="wrap-input100 validate-input" data-validate = "Password is required">
+									<input class="input100" type="password" name="pass" >
+									<span class="focus-input100"></span>
+								</div>
+			
+								<div class="container-login100-form-btn m-t-17">
+									<button class="login100-form-btn" onclick="alert('Кажется что-то пошло не так(')">
+										Вход
+									</button>
+								</div>
+			
+								<div class="w-full text-center p-t-55">
+									<span class="txt2">
+										Не зарегестрированы?
+									</span>
+			
+									<a href="#" class="txt2 bo1" onclick="alert('Кажется что-то пошло не так(')">
+										SignUp
+									</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr style="width: 100%;"><br>
+
+
+	<div class="SolvingEquations" id="SolvingEquations">
+		<h1 class="text-center">Решение квадратных уравнений</h1>
+		<div class="container">
+			<div class="description">
+				Вам грустно? Одиноко? Хотите оценку выше 3 за экзамен? Задали написать "Решалку квадратных уровненией" на Python?<br>Не знаете как?<br>Не беда! Cкачайте мой замечательный код и сдавайте вашему преподавателю!
+			</div>
+			<div class="block">
+				<img src="task/SolvingEquations/SolvingEquations.png">
+				<a class="check" href="task/SolvingEquations/SolvingEquations.py">Посмотреть</a>
+			</div>
+		</div>
+	</div>
+	<hr><br>
+
+	<div class="SolvingEquationsJS" id="SolvingEquationsJS">
+		<h1 class="text-center">Решение квадратных уравнений JS</h1>
+		<div class="container">
+			<div class="description">
+				Зачем для решения уравнений использовать программу, если можно использовать сайт? Конечно незачем, перейдите по ссылке и опробуйте решалку для браузера! 
+			</div>
+			<div class="block">
+				<img src="task/SolvingEquationsJS/SolvingEquationsJS.png">
+				<a class="check" href="task/SolvingEquationsJS/SolvingEquationsJS.html">Посмотреть</a>
+			</div>
+		</div>
+	</div>
+	<hr><br>
+
+	<div class="ModuleST" id="ModuleST">
+		<h1 class="text-center">Модуль Sublime Text</h1>
+		<div class="container">
+			<div class="description">
+				Если вам вдруг понадобится перевести число в двоичную, восьмеричную или шестнадцатеричную систему счисления, то этот модуль поможет вам в этом!
+			</div>
+			<div class="block">
+				<img src="task/ModuleST/ModuleST.png">
+				<a class="check" href="task/ModuleST/ModuleST.rar">Посмотреть</a>
+			</div>
+		</div>
+	</div>
+	<hr><br>
+
+	<div class="TicTacToe" id="TicTacToe">
+		<h1 class="text-center">Крестики-нолики</h1>
+		<div class="container">
+			<div class="description">
+				Игра "Крестики-нолики" теперь не только на бумаге, но и в браузере!
+			</div>
+			<div class="block">
+				<img src="task/TicTacToe/TicTacToe.png">
+				<a class="check" href="task/TicTacToe/TicTacToe.html">Посмотреть</a>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/login.js"></script>	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin-top: 50px;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:#00a2ff;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #00a2ff;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+
+.header{
+	position: relative;
+	background-image: url('../images/headerback.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+
+.Header, .SolvingEquations , .SolvingEquationsJS , .ModuleST , .TicTacToe{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container{
+	padding: 0px;
+	margin: 0px;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.description{
+	margin-top: 20px;
+	width: 55%;
+	font-size: 20px;
+	/*border: 1px double rgb(255, 0, 0);*/
+}
+
+.block{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/*border: 1px double rgb(4, 0, 255);*/
+}
+
+.block>img{
+	padding: 20px;
+	width: 90%;
+}
+
+
+.check {
+	margin: 40px;
+	align-self: flex-end;
+	text-decoration: none;
+	outline: 1px solid rgba(255, 255, 255, 0);
+	display: inline-block;
+	padding: 12px 40px;
+	border-radius: 30px;
+	background: #a64bf4;
+	background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+	background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+	background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
+	background: linear-gradient(45deg, #00dbde, #fc00ff);
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,40,120,.35);
+	transition: .5s;
+}
+.check:hover {
+	box-shadow: 0 0 0 0 rgba(0,40,120,0);
+	background-position: 0 0;
+}
+
+
+hr {
+    width: 80%;
+    border: none; 
+    background-color: rgba(0,40,120,.35);
+    color: rgba(0,40,120,.35);
+    height: 1px;
+}
+
+.hed{
+	display: flex;
+	flex-direction: row;
+}
+
+.LogIn{
+	width: 100%;
+}

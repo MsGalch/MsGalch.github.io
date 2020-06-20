@@ -1,0 +1,59 @@
+h1{
+    padding-top: 60px;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:  center;
+    font-size:30px;
+}
+
+.elem{
+    padding: 0px;
+    height: 100%;
+}
+
+
+  #Settings>div{
+    padding: 2px;
+  }
+  
+  #Size{
+    width: 50px;
+  }
+  
+  #ScoreX, #ScoreY{
+    width: 30px;
+    text-align: center;
+  }
+  
+  /*Игровое поле*/
+  .block{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+    
+  }
+  .cell {
+    box-sizing: border-box;
+    background-color: rgb(255, 221, 252);
+    border: 2px solid black;
+    float: left;
+    height: 100px;
+    width: 100px;
+  }
+  .cell:hover {
+    border-color: rgb(51, 255, 0);
+  }
+  .player {
+    background-image: url('img/player.png');
+    text-align: center;
+  }
+  .ai {
+    background-image: url('img/ai.png');
+    text-align: center;
+  }
